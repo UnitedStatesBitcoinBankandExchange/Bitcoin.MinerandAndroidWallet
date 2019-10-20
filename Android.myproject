@@ -1,0 +1,7 @@
+Include all repository files
+AppCenter.start(getApplication(), "241e4c98-ad5a-4e97-a547-93f6ab62168b",                   Analytics.class, Crashes.class);
+import com.microsoft.appcenter.AppCenter;
+import com.microsoft.appcenter.analytics.Analytics;
+import com.microsoft.appcenter.crashes.Crashes;
+dependencies {     def appCenterSdkVersion = '2.4.0'     implementation "com.microsoft.appcenter:appcenter-analytics:${appCenterSdkVersion}"     implementation "com.microsoft.appcenter:appcenter-crashes:${appCenterSdkVersion}"
+}
